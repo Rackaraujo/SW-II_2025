@@ -6,3 +6,5 @@ if ($idade >= 18) {
 } else {
     echo "Menor de Idade";
 }
+
+?>

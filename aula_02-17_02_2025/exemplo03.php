@@ -11,3 +11,5 @@ switch ($opcao) {
     default:
         echo "Opção inválida";
 }
+
+?>
