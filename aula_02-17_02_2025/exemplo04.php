@@ -18,7 +18,13 @@
     //echo "<br>";
 //}
 
-$nomes = ['ANA', 'Anderson', 'Carlos'];
+$nomes = ['Ana', 'Anderson', 'Carlos'];
+
+$qtde = count($nomes);
+
+echo "Elementos: $qtde";
+
+echo "<br>";
 
 echo $nomes[1];
 
