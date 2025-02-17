@@ -26,6 +26,10 @@ echo "Elementos: $qtde";
 
 echo "<br>";
 
-echo $nomes[1];
+for($i = 0; $i < $qtde; $i++){
+    echo $nomes[$i] . "<br>";
+}
+
+//echo $nomes[1];
 
 ?>
