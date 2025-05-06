@@ -1,13 +1,12 @@
 <?php
-
-$numero = 0;
-if ($numero >= 1) {
-    echo "O número " .$numero ." é positivo";
-} elseif ($numero <= 1){
-    echo "O número " .$numero ." é negativo";
- } else{
-        echo "O número é igual a 0";
-    }
-
+    $numero = -5;
+    
+    if ($numero<0){
+        echo "NEGATIVO";
+    }elseif ($numero == 0) {
+        echo "IGUAL A ZERO";
+    }else {
+        echo "POSITIVO";
+    }    
 
 ?>
